@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    position: relative;
+    width: 33.7em;
+    height: 20.8em;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice {
+    position: absolute;
+    top: 0;
+    padding: 50px 50px 0;
+    text-align: center;
+}
+
+.advice span {
+    color: hsl(150, 100%, 66%);
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+#advice-text {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+}
+.divider {
+    position: absolute;
+    bottom: 80px;
+}
+
+.dice {
+    position: absolute;
+    bottom: -32.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background-color:  hsl(150, 100%, 66%);
+}
+
+.dice:hover {
+    box-shadow: 0px 0px 20px 0px hsl(150, 100%, 66%);
+}
+
+.dice img {
+    width: 25px;
+    height: 25px;
+}
