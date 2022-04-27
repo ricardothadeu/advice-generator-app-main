@@ -1,3 +1,4 @@
+window.onload = getAdvice();
 function getAdvice() {
     var requestURL = 'https://api.adviceslip.com/advice'
     var request = new XMLHttpRequest();
