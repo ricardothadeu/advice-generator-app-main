@@ -48,7 +48,7 @@
 }
 
 .divider {
-    content: url('/images/pattern-divider-desktop.svg');
+    content: url('./images/pattern-divider-desktop.svg');
     /* bottom: 80px; */
     margin-bottom: 1rem;
 }
@@ -85,7 +85,7 @@
     }
 
     .divider {
-        content: url('/images/pattern-divider-mobile.svg');
+        content: url('./images/pattern-divider-mobile.svg');
     }
 
     .dice:hover {
